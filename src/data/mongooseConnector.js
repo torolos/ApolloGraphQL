@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.Promise = require('bluebird');
-mongoose.connect('mongodb://localhost/run_stats', {
+mongoose.connect('mongodb://mongo-torolos-001:01XPKCQaJ8bYDFiDP38XAJqHIlfUsIlI3QE0OhNlsW9PTB91ae7mYisE9FxAkPjDXYpyQNrThCJRNQxmq2xKnw%3D%3D@mongo-torolos-001.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&maxIdleTimeMS=120000&appName=@mongo-torolos-001@', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });

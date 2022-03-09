@@ -7,6 +7,6 @@ const server = new ApolloServer({
     resolvers
 });
 
-server.listen().then(({ url }) => {
+server.listen(8080).then(({ url }) => {
     console.log(`Server running on ${url}`); 
 });
